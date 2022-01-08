@@ -1,0 +1,138 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Heebo", sans-serif;
+    color: #e5e5e5;
+}
+input {
+    all: unset;
+}
+a {
+    text-decoration: none;
+    color: #21243d;
+}
+.container {
+    max-width: 1452px;
+    padding: 0px 235px;
+    margin: 0 auto;
+}
+button {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+
+    background: transparent;
+
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+    -webkit-appearance: none;
+}
+
+.header__container {
+    padding-top: 30px;
+    padding-right: 90px;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu__list {
+    display: flex;
+    list-style: none;
+}
+.menu__item + .menu__item {
+    margin-left: 20px;
+    margin-right: -20px;
+}
+.menu__item:nth-child(2) {
+    margin-left: 50px;
+}
+.menu__item:last-child {
+    margin-left: 65px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23.5px;
+    color: #21243d;
+}
+.title {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243d;
+}
+.work-works__title {
+    font-size: 44px;
+    padding-top: 100px;
+    padding-bottom: 25px;
+    line-height: 60px;
+    font-weight: 900;
+}
+.work__item {
+    display: flex;
+}
+.work__item + .work__item {
+    margin-top: 30px;
+}
+.work__info {
+    margin-left: 20px;
+}
+.work__title {
+    font-size: 30px;
+    line-height: 44px;
+}
+.work__meta {
+    display: flex;
+    margin: 16px 0;
+}
+.work__data {
+    font-weight: 900;
+    font-size: 18px;
+
+    border-radius: 16px;
+    color: #fff;
+    background: #142850;
+    padding: 0 10px;
+    vertical-align: center;
+}
+.work__category {
+    margin-left: 26px;
+    font-size: 20px;
+
+    color: #8695a4;
+}
+
+.work__line {
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 35px;
+}
+.footer__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+}
+.social__list {
+    display: flex;
+    list-style: none;
+}
+.social__item + .social__item {
+    margin-left: 35px;
+}
+.footer__copirate {
+    margin-top: 25px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #21243d;
+}

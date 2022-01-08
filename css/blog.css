@@ -1,0 +1,141 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Heebo", sans-serif;
+    color: #e5e5e5;
+}
+input {
+    all: unset;
+}
+a {
+    text-decoration: none;
+    color: #21243d;
+}
+.container {
+    max-width: 1452px;
+    padding: 0px 235px;
+    margin: 0 auto;
+}
+button {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+
+    background: transparent;
+
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+    -webkit-appearance: none;
+}
+
+.header__container {
+    padding-top: 30px;
+    padding-right: 90px;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu__list {
+    display: flex;
+    list-style: none;
+}
+.menu__item + .menu__item {
+    margin-left: 20px;
+    margin-right: -20px;
+}
+.menu__item:nth-child(2) {
+    margin-left: 50px;
+}
+.menu__item:last-child {
+    margin-left: 65px;
+}
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23.5px;
+    color: #21243d;
+}
+.title {
+    font-weight: 500;
+    font-size: 3px;
+    line-height: 44px;
+    color: #21243d;
+}
+.blog__title {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    align-self: flex-start;
+    margin-top: 105px;
+}
+.blog__block-title {
+    font-size: 30px;
+    line-height: 44px;
+    font-weight: 500;
+    margin-top: 55px;
+    color: #21243d;
+}
+.blog-first,
+.blog-second,
+.blog-third {
+    margin-top: -23px;
+}
+.blog__list {
+    margin-top: 16px;
+    margin-bottom: 15px;
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    line-height: 29px;
+    align-self: center;
+    color: #21243d;
+}
+.blog__item-first {
+    font-size: 20px;
+    font-weight: 400;
+    color: #21243d;
+    line-height: 29px;
+}
+.blog__item-last {
+    font-size: 20px;
+    font-weight: 400;
+    color: #8695a4;
+    line-height: 29px;
+}
+.blog__item + .blog__item {
+    margin-left: 26px;
+}
+.blog__line {
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 35px;
+}
+
+.footer__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+}
+.social__list {
+    display: flex;
+    list-style: none;
+}
+.social__item + .social__item {
+    margin-left: 35px;
+}
+.footer__copirate {
+    margin-top: 25px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #21243d;
+}
