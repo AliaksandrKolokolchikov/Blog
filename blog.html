@@ -4,30 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/blog.css">
+    <meta name="viewport" content="width=device-width">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/blog.css">
     <title>Blog</title>
 </head>
 
 <body>
-
-    <header>
-        <div class="header__container">
-            <nav class="menu">
-                <ul class="menu__list">
-                    <li class="menu__item"><a class="menu__link" href="blog.html">Blog</li></a>
-                    <li class="menu__item"><a class="menu__link" href="work.html">Works</li></a>
-                    <li class="menu__item"><a class="menu__link" href="index.html">Contact</li></a>
+    <section class="allblog">
+        <header>
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-list-item"><a href="blog.html" class="blog-link-red">Blog</a></li>
+                    <li class="navbar-list-item"><a href="works.html" class="blog-link">Works</a></li>
+                    <li class="navbar-list-item"><a href="index.html" class="blog-link">Contact</a></li>
                 </ul>
             </nav>
-        </div>
-    </header>
-
-    <section class="blog-container">
-        <div class="container">
+        </header>
+        <div class="wrapper">
             <div class="title blog__title">Blog</div>
             <div class="blog">
                 <div class="blog__item blog__line">
@@ -100,29 +96,24 @@
                 </div>
             </div>
         </div>
-
-    </section>
-
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__content">
-                <ul class="social__list">
-                    <li class="social__item"><a href="" class="social__link"><img src="./img/fb.svg" alt=""
-                                class="social__img"></a></li>
-                    <li class="social__item"><a href="" class="social__link"><img src="./img/insta.svg" alt=""
-                                class="social__img"></a></li>
-                    <li class="social__item"><a href="" class="social__link"><img src="./img/Group.svg" alt=""
-                                class="social__img"></a></li>
-                    <li class="social__item"><a href="" class="social__link"><img src="./img/Linkedin.svg" alt=""
-                                class="social__img"></a></li>
-                </ul>
-                <div class="footer__copirate">Copyright ©2020 All rights reserved </div>
+        <footer class="footer">
+            <div class="wrapper">
+                <div class="footer__content">
+                    <ul class="social__list">
+                        <li class="social__item"><a href="" class="social__link"><img src="./img/fb.svg" alt=""
+                                    class="social__img"></a></li>
+                        <li class="social__item"><a href="" class="social__link"><img src="./img/insta.svg" alt=""
+                                    class="social__img"></a></li>
+                        <li class="social__item"><a href="" class="social__link"><img src="./img/Group.svg" alt=""
+                                    class="social__img"></a></li>
+                        <li class="social__item"><a href="" class="social__link"><img src="./img/Linkedin.svg" alt=""
+                                    class="social__img"></a></li>
+                    </ul>
+                    <div class="footer__copirate">Copyright ©2020 All rights reserved </div>
+                </div>
             </div>
-
-        </div>
-    </footer>
-
+        </footer>
+    </section>
 </body>
 
 </html>
