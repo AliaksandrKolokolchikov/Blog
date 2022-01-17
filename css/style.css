@@ -246,7 +246,7 @@ footer {
   color: #21243d;
 }
 
-@media (max-width: 376px), (max-width: 396px), (max-width: 414px) {
+@media  (max-width: 376px), (max-width: 396px), (max-width: 414px) {
   .about__img {
     order: 1;
   }
