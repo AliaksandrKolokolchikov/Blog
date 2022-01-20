@@ -30,17 +30,45 @@
 //};
 //counterLogger(conter,maxNumber);
 
-let string = "hello"
-const arr = string.split("");
-const newString = (arg) => {
-  const newARr = [];
-  for (let i = 0; i <= arg.lenght; i++) {
-    if (arg[i] === "l") {
-    newARr.push("h");
-    }else newARr.push(arg[i]);
-  }
-  return newARr.join("");
-};
+//let string = "hello"
+//const arr = string.split("");
+//const newString = (arg) => {
+ // const newARr = [];
+ // for (let i = 0; i <= arg.length; i++) {
+ //   if (arg[i] === "l") {
+  //  newARr.push("h");
+  //  }else newARr.push(arg[i]);
+ // }
+ // return newARr.join("");
+//};
 
 
+
+
+//Подсчет буков
+//const mystring = 'Hello, my name is Aliaksandr'
+
+//const countOfLetter = (letter, string) => {
+  
+ // let counter = 0;
+  
+///const arr = string.split('');
+
+////for (let i = 0 ; i <= arr.length ; i++ ) {
+ // if (arr[i] === letter){
+ //   counter+1
+ //   console.log(counter);
+ // }
+ // }
+//return counter;
+
+//};
+
+//countOfLetter('l', mystring);
+const button = document.querySelector(".double-input");
+
+
+button.addEventListener("click",()=> alert("Wow"))
+
+button.removeEventListener('click');
 
